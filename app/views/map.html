@@ -1,0 +1,24 @@
+<template name="map">
+    <div class="container">
+        <div class="text-center">
+            {{> gMap}}
+        </div>
+    </div>
+</template>
+
+<template name="gMap" >
+    <div id="gMap" class="demo-card-wide mdl-card mdl-shadow--2dp">
+        <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text">Kaart</h2>
+        </div>
+        <div class="mdl-card__supporting-text">
+            bekijk de luchtvervuiling op de kaart. selecteer een specifieke locatie voor meer details.
+        </div>
+
+    <div class="map-container">
+        {{> googleMap name="map" options=mapOptions}}
+    </div>
+    </div>
+</template>
+
+

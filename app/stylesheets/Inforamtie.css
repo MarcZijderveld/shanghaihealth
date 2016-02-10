@@ -1,0 +1,83 @@
+.switch {
+    margin-top: 20px;
+}
+
+.input-field {}
+
+
+#IntellingenInsideCard{
+
+    margin-top: 20px !important;
+}
+
+#saveDivFijnstof{
+
+margin-top: 40px;
+display: none;
+    flex-direction: row-reverse;
+
+}
+
+#saveDivFijnstof > button{
+    margin-left: 10px;
+}
+
+.lever:after {
+    background-color: #e57373!important;
+}
+
+.switch label input[type=checkbox]:checked + .lever:after {
+    background-color: #e57373!important;
+}
+
+.switch label input[type=checkbox]:checked + .lever {
+    background-color: #e57373!important;
+}
+
+ .dropdown-content li > span {
+
+    color: #e57373!important;
+
+}
+
+.select-wrapper > .caret{
+    color: #e57373!important;
+    font-size: 22px!important;
+}
+
+#longInfo > .imgCardInfo {
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("imgs/longsIcon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#doodInfo > .imgCardInfo {
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("imgs/deadIcon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#healthInfo > .imgCardInfo {
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("imgs/medicIcon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

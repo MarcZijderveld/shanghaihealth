@@ -1,0 +1,83 @@
+<template name="account">
+
+    <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+        <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text">Account</h2>
+        </div>
+        <div class="mdl-card__supporting-text">
+            Login voor alle functies in deze app.
+        </div>
+
+        <p class="center">
+            Welcome back: {{currentUser.profile.name}}!</p>
+        <p class="center">  Information: <br>
+            Email adress: {{currentUser.email}} <br>
+            Gender: {{currentUser.gender}} <br>
+            Birth Date: {{currentUser.birthdate}}
+        </p>
+
+        <img scr="{{currentUser.profile.picture}}" alt="{{currentUser.username}}">
+
+
+
+
+        <div class="card blue-grey darken-1">
+
+
+            <div class="card-image">
+                <img src="imgs/Instellingen.png">
+                <span class="card-title">Instellingen</span>
+            </div>
+            <div class="card-content white-text">
+                <p>In dit kader kunt u een waarde toekennen aan de blootstelling van de gemeten luchtvervuiling. Deze waarde
+                    zal terug te zien zijn in het overzicht. Een rode lijn geeft aan wat u ingestlde waarde is. </p>
+
+
+                <div class="card blue-grey darken-1" id="IntellingenInsideCard">
+                    <div class="card-content white-text">
+                        <form>
+                            <span class="card-title">Fijnstof</span>
+
+                            <div class="switch">
+                                <label>
+                                    Uit
+                                    <input type="checkbox" id="checkboxFijnstof">
+                                    <span class="lever"></span>
+                                    Aan
+                                </label>
+                            </div>
+
+
+                            <div class="input-field" id="fijnstofSelectDiv">
+
+                                <select id="selectFijnstof" class="">
+
+                                    <option value="0.02">0,02 ppm</option>
+                                    <option value="0.04">0,04 ppm</option>
+                                    <option value="0.06">0,06 ppm</option>
+                                    <option value="0.08">0,08 ppm</option>
+                                    <option value="0.10">0,010 ppm</option>
+                                </select>
+                            </div>
+                            <div id="saveDivFijnstof">
+                                <button id="saveFijnstof" class="mdl-button mdl-js-button mdl-js-ripple-effect red lighten-2 white-text"
+                                        href="#">Opslaan
+                                </button>
+                                <button id="cancelFijnstof" class="mdl-button mdl-js-button mdl-js-ripple-effect blue-grey lighten-2 white-text"
+                                        href="#">Anuleren
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </div>
+</template>
