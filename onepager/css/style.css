@@ -1,4 +1,97 @@
 .problem{
-    width: 100%;
-    height: 100%;
+    height: 720px;
+    background: url("../images/stress_office.jpg") no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url("../images/stress_office.jpg");
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url("../images/stress_office.jpg");
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url("../images/stress_office.jpg");
+    background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url("../images/stress_office.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/stress_office.jpg");
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url("../images/stress_office.jpg");
+}
+.concept{
+    height: 720px;
+    background: url("../images/concept_bubble.jpg") no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url("../images/concept_bubble.jpg");
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url("../images/concept_bubble.jpg");
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url("../images/concept_bubble.jpg");
+    background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url("../images/concept_bubble.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/concept_bubble.jpg");
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url("../images/concept_bubble.jpg");
+}
+
+.smartObject{
+    height: 720px;
+    background: url("../images/smartobject.jpg") no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url("../images/smartobject.jpg");
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url("../images/smartobject.jpg");
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url("../images/smartobject.jpg");
+    background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url("../images/smartobject.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/smartobject.jpg");
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url("../images/smartobject.jpg");
+}
+
+.navbar{
+    margin-bottom: 0;
+}
+
+#problemImg{
+    width: 300px;
+    height: 300px;
+    border: 5px solid white;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    margin-left: 13%;
+    margin-top: 17%;
+    display: inline-block;
+
+
+}
+#textProblem{
+    border: 5px solid white;
+    border-radius: 10px;
+    width: 30%;
+    height: 300px;
+    float: right;
+    margin-top: 17%;
+    margin-right: 13%;
+    display: inline-block;
+    background-color: white;
+}
+
+#problemImg2{
+    width: 300px;
+    height: 300px;
+    border: 5px solid white;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    float: right;
+    margin-top: 17%;
+    margin-right: 13%;
+    display: inline-block;
+
+
+}
+#textProblem2{
+    border: 5px solid white;
+    border-radius: 10px;
+    width: 30%;
+    height: 300px;
+    margin-left: 13%;
+    margin-top: 17%;
+    display: inline-block;
+    background-color: white;
 }
