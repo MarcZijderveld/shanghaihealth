@@ -13,11 +13,9 @@ Router.map(function() {
         path: '/',
     });
 
-    this.route('account');
+    this.route('settings');
 
-    this.route('map');
-
-    this.route('Inforamtie');
+    this.route('exercises');
 
 
 });
