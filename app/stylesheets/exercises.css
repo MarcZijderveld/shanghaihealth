@@ -1,0 +1,9 @@
+#stretchInfo > .imgCardInfo {
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background: #808080 url("../imgs/yoga_stretch.png") no-repeat center;
+}

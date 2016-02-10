@@ -273,17 +273,6 @@ h1{
     margin: 0.5rem 2px 1rem 2px !important;
 }
 
-.imgCard {
-    width: 30%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: url("imgs/location.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 
 .contentAfterIamage {
     margin-left: 30%;
