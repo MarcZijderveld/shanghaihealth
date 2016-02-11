@@ -17,6 +17,8 @@ Router.map(function() {
 
     this.route('exercises');
 
+    this.route('connect');
+
 
 });
 
