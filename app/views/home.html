@@ -1,17 +1,12 @@
 <template name="home">
-	<div class="card blue-grey darken-1" id="longInfo">
-		<div class="imgCardInfo"></div>
-		<div class="card-content white-text contentAfterIamage">
-			<span class="card-title">Heart Rate</span>
-			<h1 id="heartRate">75</h1>
-		</div>
+	<div class="card blue-grey darken-1" id="heartInfo">
+		<div class="imgCardInfo"><h1 id="heartRate">75</h1></div>
 	</div>
 
 	<div class="card blue-grey darken-1" id="stressInfo">
-		<div class="imgCardInfo"></div>
-		<div class="card-content white-text contentAfterIamage">
-			<span class="card-title">Stress Level</span>
-			<div id="p1" class="mdl-progress mdl-js-progress"></div>
+		<span id="headText" class="card-title">Stress Level</span>
+		<div class="progress">
+			<div class="determinate" style="width: 70%"></div>
 		</div>
 	</div>
 </template>

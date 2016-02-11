@@ -26,23 +26,5 @@ body {
     width: auto !important;
 }
 
-#heartInfo > .imgCardInfo {
-    margin: auto;
-    width: 100%;
-    height: 300px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background: #808080 url("../imgs/heart.png") no-repeat center;
-}
 
-#stressInfo > .imgCardInfo {
-    margin: auto;
-    width: 100%;
-    height: 300px;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
 
