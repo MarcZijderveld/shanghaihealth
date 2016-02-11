@@ -36,7 +36,12 @@ if(Meteor.isClient) {
 			var rand = Math.floor(Math.random() * 85) + 75;
 			$("#heartRate").text(rand);
 			console.log("refresh naar " + rand);
-		}
+		}s
 		setTimeout(refresh, 3000);
 	}
+
+    document.querySelector('#p1').addEventListener('mdl-componentupgraded', function()
+	{
+        this.MaterialProgress.setProgress(44);
+	});
 }
