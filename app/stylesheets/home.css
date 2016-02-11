@@ -26,5 +26,35 @@ body {
     width: auto !important;
 }
 
+#heartInfo > .imgCardInfo {
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background: #808080 url("../imgs/heart.png") no-repeat center;
+}
 
+#stressInfo > .imgCardInfo {
+    margin: auto;
+    width: 10%;
+    height: 300px;
+    top: 0;
+    left: 0;
+}
+
+#heartRate
+{
+    padding-left: 210px;
+    padding-top: 70px;
+    color: #FFFFFF;
+}
+
+#headText
+{
+    margin-left: 5px;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
 

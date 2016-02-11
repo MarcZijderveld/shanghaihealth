@@ -39,9 +39,4 @@ if(Meteor.isClient) {
 		}
 		setTimeout(refresh, 3000);
 	}
-
-    document.querySelector('#p1').addEventListener('mdl-componentupgraded', function()
-	{
-        this.MaterialProgress.setProgress(44);
-	});
 }
