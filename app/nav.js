@@ -1,5 +1,4 @@
 if(Meteor.isClient) {
-
   Template.nav.rendered = function () {
     $(".button-collapse").sideNav();
   };

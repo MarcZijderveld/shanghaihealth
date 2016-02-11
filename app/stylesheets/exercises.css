@@ -7,3 +7,23 @@
     background-size: cover;
     background: #808080 url("../imgs/yoga_stretch.png") no-repeat center;
 }
+
+#eagleInfo > .imgCardInfo {
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background: #808080 url("../imgs/yoga_eagle.png") no-repeat center;
+}
+
+#heartopenerInfo > .imgCardInfo {
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background: #808080 url("../imgs/yoga_heartopener.png") no-repeat center;
+}
